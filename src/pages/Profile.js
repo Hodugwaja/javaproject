@@ -3,7 +3,7 @@ import Profile from '../components/Profile/Profile';
 
 function profile(){
     return(
-        <div>{Profile}</div>
+        <Profile />
     )
 }
 export default profile;
