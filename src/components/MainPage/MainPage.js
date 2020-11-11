@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainPage.scss'
 import { Link } from 'react-router-dom';
-const MainPage= ({/*form, onChange, onSubmit*/}) => {
+const MainPage= (/*{form, onChange, onSubmit}*/) => {
     
     return(
         <div className = "Background-Main">
