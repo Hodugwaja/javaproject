@@ -5,43 +5,31 @@ import { Link } from "react-router-dom"
 
 
 const SetProject = () => {
-    const projectName = '프줵 이름';
+    const projectName = '(프로젝트 이름)';
     const [team, setTeam] = useState([
         {
             id : 1,
-            name : '김두한',
-            email : 'kimduhan1972@gmail.com',
-            date : '1972-11-21'
+            name : '1번',
+            email : 'number1@gmail.com',
+            date : '2020-01-01'
         },
         {
             id : 2,
-            name : '심영',
-            email : 'SimYoung@gmail.com',
-            date : '1972-00-00'
+            name : '2번',
+            email : 'number2@gmail.com',
+            date : '2020-02-02'
         },
         {
             id : 3,
-            name : '김두한',
-            email : 'kimduhan1972@gmail.com',
-            date : '1972-11-21'
+            name : '3번',
+            email : 'number3@gmail.com',
+            date : '2020-03-03'
         },
         {
             id : 4,
-            name : '심영',
-            email : 'SimYoung@gmail.com',
-            date : '1972-00-00'
-        },
-        {
-            id : 5,
-            name : '김두한',
-            email : 'kimduhan1972@gmail.com',
-            date : '1972-11-21'
-        },
-        {
-            id : 6,
-            name : '심영',
-            email : 'SimYoung@gmail.com',
-            date : '1972-00-00'
+            name : '4번',
+            email : 'number4@gmail.com',
+            date : '2020-04-04'
         }
     ])
     const onRemove = useCallback(
